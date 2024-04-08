@@ -47,8 +47,8 @@ class Rectangle:
 
     def __str__(self):
         """return the representation of the rectangle"""
-        if self.__width == 0 and self.__height == 0:
-            return ("")
+        if self.__width == 0 or self.__height == 0:
+            return ""
 
         rec = []
         for i in range(self.__height):
