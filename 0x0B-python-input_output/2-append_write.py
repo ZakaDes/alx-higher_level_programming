@@ -4,5 +4,6 @@
 
 
 def append_write(filename="", text=""):
+    """append a strind at the end of utf8 file"""
     with open(filename, "a", encoding="utf-8") as f:
         return (f.write(text))
