@@ -15,38 +15,37 @@ class Rectangle(Base):
         super().__init__(id)
 
     @property:
-    def width(self):
-        """width of the rectangle"""
-        return self.__width
+        def width(self):
+            """width of the rectangle"""
+            return self.__width
 
     @width.setter:
-    def width(self, value):
-        self.__width = value
+        def width(self, value):
+            self.__width = value
 
     @property:
-    def height(self):
-        """height of the rectangle"""
-        return self.__height
+        def height(self):
+            """height of the rectangle"""
+            return self.__height
 
     @height.setter:
-    def height(self, value):
-        self.__height = value
+        def height(self, value):
+            self.__height = value
 
     @property:
-    def x(self):
-        """x of the rectangle"""
-        return self.__x
+        def x(self):
+            """x of the rectangle"""
+            return self.__x
 
     @x.setter:
-    def x(self, value):
-        self.x = value
+        def x(self, value):
+            self.x = value
 
     @property:
-    def y(self):
-        """y of the rectangle"""
-        return self.__y
+        def y(self):
+            """y of the rectangle"""
+            return self.__y
 
     @y.setter:
-    def y(self, value):
-        self.y = value
-
+        def y(self, value):
+            self.y = value
