@@ -14,38 +14,38 @@ class Rectangle(Base):
         self.y = y
         super().__init__(id)
 
-    @property:
-        def width(self):
-            """width of the rectangle"""
-            return self.__width
+    @property
+    def width(self):
+        """width of the rectangle"""
+        return self.__width
 
-    @width.setter:
-        def width(self, value):
-            self.__width = value
+    @width.setter
+    def width(self, value):
+        self.__width = value
 
-    @property:
-        def height(self):
-            """height of the rectangle"""
-            return self.__height
+    @property
+    def height(self):
+        """height of the rectangle"""
+        return self.__height
 
-    @height.setter:
-        def height(self, value):
-            self.__height = value
+    @height.setter
+    def height(self, value):
+        self.__height = value
 
-    @property:
-        def x(self):
-            """x of the rectangle"""
-            return self.__x
+    @property
+    def x(self):
+        """x of the rectangle"""
+        return self.__x
 
-    @x.setter:
-        def x(self, value):
-            self.x = value
+    @x.setter
+    def x(self, value):
+        self.x = value
 
-    @property:
-        def y(self):
-            """y of the rectangle"""
-            return self.__y
+    @property
+    def y(self):
+        """y of the rectangle"""
+        return self.__y
 
-    @y.setter:
-        def y(self, value):
-            self.y = value
+    @y.setter
+    def y(self, value):
+        self.y = value
